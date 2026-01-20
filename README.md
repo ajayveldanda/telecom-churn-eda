@@ -2,7 +2,9 @@
 
 
 
-This project performs Exploratory Data Analysis (EDA) on a synthetic telecom customer dataset to analyze churn patterns, customer behavior, and feature distributions.  
+This project performs Exploratory Data Analysis (EDA) on a synthetic telecom customer dataset to analyze churn patterns, customer behavior, and feature distributions.
+
+
 
 The dataset is programmatically generated to simulate realistic business scenarios.
 
@@ -12,13 +14,13 @@ The dataset is programmatically generated to simulate realistic business scenari
 
 
 
-\- Generated a 50,000-record synthetic telecom dataset using Python (NumPy, Pandas)  
+\- Generated a 50,000-record synthetic telecom dataset using Python (NumPy, Pandas)
 
-\- Engineered features such as age, gender, tenure, monthly charges, contract type, payment method, internet service, support calls, total charges, and churn  
+\- Engineered features such as age, gender, tenure, monthly charges, contract type, payment method, internet service, support calls, total charges, and churn
 
-\- Created a rule-based churn label to simulate real-world churn behavior  
+\- Created a rule-based churn label to simulate real-world churn behavior
 
-\- Performed EDA to analyze churn trends, feature distributions, and customer segments  
+\- Performed EDA to analyze churn trends, feature distributions, and customer segments
 
 \- Exported the final dataset to CSV for reporting and analytics
 
@@ -92,7 +94,7 @@ are more likely to be labeled as churned.
 
 \- High-risk churn segment identification  
 
-\- Visualizations using Seaborn
+\- Visualizations using Seaborn  
 
 
 
@@ -118,7 +120,59 @@ are more likely to be labeled as churned.
 
 
 
-1\. Clone the reposito
+1\. Clone the repository:
+
+&nbsp;  git clone https://github.com/ajayveldanda/telecom-churn-eda.git
+
+
+
+2\. Navigate to the project folder:
+
+&nbsp;  cd telecom-churn-eda
+
+
+
+3\. Open the notebook:
+
+&nbsp;  jupyter notebook EDA.PROJECT.ipynb
+
+
+
+\## Project Structure
+
+
+
+telecom-churn-eda/
+
+│
+
+├── EDA.PROJECT.ipynb
+
+├── churn\_eda\_50000.csv
+
+└── README.md
+
+
+
+\## Author
+
+
+
+Ajay Veldanda  
+
+GitHub: https://github.com/ajayveldanda  
+
+
+
+\## Notes
+
+
+
+\- The dataset is synthetic and created for educational and portfolio purposes  
+
+\- The project focuses on EDA and analytics, not machine learning  
+
+\- This project is suitable for Data Analyst fresher roles and analytics interviews  
 
 
 
